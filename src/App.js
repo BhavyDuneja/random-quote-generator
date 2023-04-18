@@ -29,7 +29,7 @@ class App extends React.Component {
             <div className="Heading">
                 <h1>{advice}</h1>
             </div>
-            <button className='button' onClick={this.fetchAdvice()}>
+            <button className='button' onClick={this.fetchAdvice}>
                 <span>Give Me Advice!</span>
             </button>
         </div>
